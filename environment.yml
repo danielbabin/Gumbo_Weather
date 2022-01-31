@@ -1,0 +1,25 @@
+name: cmip6
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.8
+  - matplotlib
+  - xarray 
+  - dask 
+  - netCDF4 
+  - bottleneck
+  - numpy
+  - pandas
+  - cftime
+  - intake
+  - tqdm
+  - gcsfs
+  - xagg
+  - jupyter
+  - ipython
+  - notebook
+  - zarr
+  - nc-time-axis
+  - seaborn
